@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<!-- saved from url=(0052)https://getbootstrap.com/docs/4.0/examples/checkout/ -->
+<html lang="en">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+  <link rel="icon" href="https://getbootstrap.com/docs/4.0/assets/img/favicons/favicon.ico">
+
+  <title>MyLibrary</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/4.0/examples/checkout/">
+
+  <!-- Bootstrap core CSS -->
+  <link href="./Checkout example for Bootstrap_files/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom styles for this template -->
+  <link href="./Checkout example for Bootstrap_files/form-validation.css" rel="stylesheet">
+  <script src="chrome-extension://mooikfkahbdckldjjndioackbalphokd/assets/prompt.js"></script>
+</head>
+
+<body class="bg-light" data-new-gr-c-s-check-loaded="14.1005.0" data-gr-ext-installed="">
+
+  <div class="conainer-fluid">
+    <div class="navbar navbar-dark bg-dark box-shadow">
+      <div class="container d-flex justify-content-between">
+        <a href="#" class="navbar-brand d-flex align-items-center">
+          <strong>MyLibrary</strong>
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="py-5 text-center">
+      <!--<img class="d-block mx-auto mb-4" src="./Checkout example for Bootstrap_files/bootstrap-solid.svg" alt="" width="72" height="72">-->
+      <h4>Insert or Update the Book</h4>
+      <h3 class="fst-italic">The Diary of a Young Girl</h3>
+      <!--<p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>-->
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <h5 class="mb-3">Please inform the book data to be inserted or updated</h5>
+        <form class="needs-validation" novalidate="">
+          <div class="row">
+            <div class="col-12 mb-3">
+              <label for="firstName">Title</label>
+              <input type="text" class="form-control" id="firstName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                ValidbBook name is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Author</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid author name is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Publisher</label>
+              <input type="text" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid publisher is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Edition</label>
+              <select class="custom-select d-block w-100" id="country" required>
+                <option value="">Choose...</option>
+                <option>1st</option>
+                <option>2nd</option>
+                <option>3rd</option>
+                <option>4rd</option>
+              </select>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Number of Pages</label>
+              <input type="number" class="form-control" id="lastName" placeholder="" value="" required="" min="1">
+              <div class="invalid-feedback">
+                Valid author name is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="country">Language</label>
+                <select class="custom-select d-block w-100" id="country" required>
+                  <option value="">Choose...</option>
+                  <option>Portuguese</option>
+                  <option>English</option>
+                  <option>Spanish</option>
+                  <option>Chinese</option>
+                </select>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Minimum Reading Age</label>
+              <input type="number" class="form-control" id="lastName" placeholder="" value="" required="" min="0">
+              <div class="invalid-feedback">
+                Valid author name is required.
+              </div>
+            </div>
+            <div class="col-12 mb-3">
+              <label for="lastName">Publication Date</label>
+              <input type="date" class="form-control" id="lastName" placeholder="" value="" required="">
+              <div class="invalid-feedback">
+                Valid author name is required.
+              </div>
+            </div>
+          </div>
+          <hr class="mb-4">
+          <button class="btn btn-primary btn-lg btn-block" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+
+    <footer class="my-5 pt-5 text-muted text-center text-small">
+      <p class="mb-1">© MyLibrary</p>
+      <ul class="list-inline">
+        <li class="list-inline-item"><a href="#">Privacy</a></li>
+        <li class="list-inline-item"><a href="#">Terms</a></li>
+        <li class="list-inline-item"><a href="#">Support</a></li>
+      </ul>
+    </footer>
+  </div>
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+  <!-- Placed at the end of the document so the pages load faster -->
+  <script src="./Checkout example for Bootstrap_files/jquery-3.2.1.slim.min.js.download"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
+  <script src="./Checkout example for Bootstrap_files/popper.min.js.download"></script>
+  <script src="./Checkout example for Bootstrap_files/bootstrap.min.js.download"></script>
+  <script src="./Checkout example for Bootstrap_files/holder.min.js.download"></script>
+  <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function () {
+        'use strict';
+
+        window.addEventListener('load', function () {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function (form) {
+            form.addEventListener('submit', function (event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+  </script>
+
+
+</body>
+
+</html>
