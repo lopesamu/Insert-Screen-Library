@@ -1,4 +1,4 @@
-# MyLibrary-Insert-Screen-Draft
+# Draft of the MyLibrary Insert Screen
 
 ## Problem Description
 
