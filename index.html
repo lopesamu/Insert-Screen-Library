@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0052)https://getbootstrap.com/docs/4.0/examples/checkout/ -->
 <html lang="en">
 
 <head>
@@ -39,10 +38,8 @@
   </div>
   <div class="container">
     <div class="py-5 text-center">
-      <!--<img class="d-block mx-auto mb-4" src="./Files/bootstrap-solid.svg" alt="" width="72" height="72">-->
       <h4>Insert or Update the Book</h4>
       <h3 class="fst-italic">The Diary of a Young Girl</h3>
-      <!--<p class="lead">Below is an example form built entirely with Bootstrap's form controls. Each required form group has a validation state that can be triggered by attempting to submit the form without completing it.</p>-->
     </div>
 
     <div class="row">
@@ -74,12 +71,15 @@
             <div class="col-12 mb-3">
               <label for="lastName">Edition</label>
               <select class="custom-select d-block w-100" id="country" required>
-                <option value="">Choose...</option>
+                <option value=""></option>
                 <option>1st</option>
                 <option>2nd</option>
                 <option>3rd</option>
                 <option>4rd</option>
               </select>
+              <div class="invalid-feedback">
+                Valid edition is required.
+              </div>
             </div>
             <div class="col-12 mb-3">
               <label for="lastName">Number of Pages</label>
@@ -89,20 +89,23 @@
               </div>
             </div>
             <div class="col-12 mb-3">
-              <label for="lastName">Language</label>
-                <select class="custom-select d-block w-100" id="country" required>
-                  <option value="">Choose...</option>
+              <label for="language">Language</label>
+                <select class="custom-select d-block w-100" id="language" required>
+                  <option value=""></option>
                   <option>Portuguese</option>
                   <option>English</option>
                   <option>Spanish</option>
                   <option>Chinese</option>
                 </select>
+                <div class="invalid-feedback">
+                  Valid language is required.
+                </div>
             </div>
             <div class="col-12 mb-3">
               <label for="lastName">Minimum Reading Age</label>
               <input type="number" class="form-control" id="lastName" placeholder="" value="" required="" min="0">
               <div class="invalid-feedback">
-                Valid minimum reading age is required.
+                Valid minimum reading is required.
               </div>
             </div>
             <div class="col-12 mb-3">
